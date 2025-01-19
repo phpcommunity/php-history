@@ -1,0 +1,32 @@
+title: CGI by Example includes a chapter on PHP/FI
+date: 1996
+
+description: |
+  *CGI by Example* includes a chapter titled "Using PHP/FI." It describes PHP:
+
+  > PHP/FI was developed by Rasmus Lerdorf, who needed to create a script that
+  > enabled him to log visitors to his page. The script replaced a few other
+  > smaller ones that were creating a load on Lerdorf's system. This script
+  > became PHP, which is an acronym for Rasmus' Personal Home Page tools. Later
+  > Lerdorf wrote a script that enabled him to embed commands within an HTML
+  > document to access a SQL database. This script acted as a forms interpreter
+  > (hence the name *FI*), which made it easier to create forms using a database.
+  > These two scripts have since been combined into one complete package called
+  > PHP/FI.
+
+notes: >
+  It's possible this is the first published book to mention PHP.
+
+tags:
+  - book
+
+sources:
+  - title: CGI by Example
+    authors:
+      - Robert Niles
+      - Jeffry Dwight
+    date: 1996
+    medium: book
+    publisher: Que
+    location: Indianapolis
+    pages: 337-357

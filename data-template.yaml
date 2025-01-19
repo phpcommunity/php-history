@@ -1,0 +1,182 @@
+# Please use this template when creating a PHP history event.
+#
+# Events may be any number of things that took place at a specified time,
+# including software releases, conferences, user group meetings, books and
+# magazines published, RFC discussions, RFC vote closings, and much more. In
+# short, if something significant happened, and you can attach a date to it,
+# it's an event.
+#
+# Before opening a pull request for an event, please remove these template
+# comments and any non-required properties not relevant to the event.
+#
+# Feel free to add any new data properties you think are missing and are
+# necessary to convey all the necessary information about the event.
+#
+# Please name the file according to the event's `date` or `start_date`
+# property, being as specific as possible with the date-time. Include a
+# trailing short "slug" of the event title to help prevent file name conflicts.
+# Use only alphanumeric characters and dashes, and be sure the time is in UTC
+# (see notes on event dates below). Place the file in a subdirectory named for
+# the year the event occurred.
+#
+#   data/YYYY/YYYY-MM-DD-HH-MM-SS-event-name-slug.yaml
+#
+# For example:
+#
+#   data/2025/2025-01-24-00-00-phpxmsp.yaml
+#   data/2025/2025-05-20-phptek.yaml
+#
+# Note: the above example uses "00-00" for the hour and minute when the PHPxMSP
+# user group meeting started. This is because 6pm America/Chicago time on
+# January 23, 2025, is 00:00 UTC on January 24, 2025.
+
+# Event title (required)
+title: A short description or name of the event
+
+# Event date(s)
+# (either date is required or both start_date and end_date are required)
+#
+# If the event is a point-in-time event, use `date` to specify a single
+# date-time for the event. If the event is a duration-based event, use
+# `start_date` and `end_date` to specify the starting and ending date-time
+# values for the event.
+#
+# Use ISO 8601 format to specify dates and times.
+#
+# You may use reduced precision (i.e., year, year and month, etc.) to specify
+# dates for events that do not have a specific day or time (e.g., publication
+# dates, etc.).
+#
+# Please specify all times in UTC (i.e., `Z` or `+00:00`).
+#
+# Since time zone offsets for any given time in history aren't equal (e.g.,
+# March 28, 2005, in Chicago, US, does not have the same time zone offset from
+# UTC as March 28, 2007, in Chicago, US), use a script like this one to figure
+# out what time in UTC should be for your event: https://3v4l.org/imsEU
+#
+# Here are some example formats for dates:
+#
+#     YYYY
+#     YYYY-MM
+#     YYYY-MM-DD
+#     YYYY-MM-DDThhZ
+#     YYYY-MM-DDThh:mmZ
+#     YYYY-MM-DDThh:mm:ssZ
+#
+date: 'YYYY-MM-DD'
+#start_date: 'YYYY-MM-DDThh:mmZ'
+#end_date: 'YYYY-MM-DDThh:mmZ'
+
+# Location of the event (optional)
+location: Venue Name, City, Country
+
+# Description (optional)
+#
+# Provide a description of the event, explaining its significance in the history
+# of the PHP programming language and community. You may use Markdown, and to
+# use the right YAML syntax for multiline strings, check out
+# https://yaml-multiline.info.
+description: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+  eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+  in culpa qui officia deserunt mollit anim id est laborum.
+
+# Notes (optional)
+#
+# Any additional notes, context, or exposition you wish to provide about this
+# event that doesn't fit in with its description. You may use Markdown, and to
+# use the right YAML syntax for multiline strings, check out
+# https://yaml-multiline.info.
+notes: |
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+  incididunt ut labore et dolore magna aliqua.
+
+  * Ut enim ad minim veniam, quis nostrud exercitation
+  * Ullamco laboris nisi ut aliquip ex ea commodo consequat
+  * Duis aute irure dolor in reprehenderit in voluptate
+
+# Tags (optional)
+#
+# As the amount of history data increases, tags can help us better organize and
+# make sense of the data. You may use as many tags as you like, but try to keep
+# them simple and generic. If you do use a specific tag for an event (e.g.,
+# "phptek"), that can be helpful to find all events related to the php[tek]
+# conference. However, it would be helpful to also include the tag
+# "conference," in this example. Some past events that have occurred at a
+# php[tek] conference include things like meetings of user group organizers, so
+# you might tag these events with "phptek" and "user-group," for example.
+#
+# Please don't include years, version numbers, or similar variants in tag names.
+tags:
+  - tag1
+  - tag2
+  - tag3
+
+# One or more sources provided as evidences for the event (required)
+#
+# You must cite at least one source!
+sources:
+  - # Be sure each source is an object in a YAML array.
+    
+    # The title of the cited source. This might be the title of a blog post,
+    # web page, newspaper article, magazine article, book chapter, book,
+    # mailing list subject line, etc.
+    title: An Article About The Event
+
+    # List the names of each author credited on the source.
+    authors:
+      - Janet Smith
+      - John Doe
+
+    # If a source has an editor (or editors) credited, list their names.
+    # For example, this might be the case if you're citing a chapter from a book
+    # of essays, such as O'Reilly's 97 Things Every Programmer Should Know.
+    editors:
+      - Maria González
+
+    # The publication date of the source, not necessarily the event date.
+    date: 'YYYY-MM-DD'
+
+    # Use a word or phrase that describes the medium (i.e., blog, website,
+    # mailing list, forum, podcast, newspaper, magazine, journal, book,
+    # presentation, conference keynote, photograph, report, etc.).
+    medium: blog
+
+    # Many sources are contained within a larger work, and it's useful to
+    # know the name of that larger work (i.e., the container). If that's the
+    # case with your source, include the name of the container here.
+    #
+    # For example, if the source is a
+    # - web page, use the name of the website.
+    # - blog post, use the name of the blog.
+    # - mailing list post, use the name of the mailing list.
+    # - magazine article, use the name of the magazine.
+    # - newspaper article, use the name of the newspaper.
+    # - journal article, use the name of the journal.
+    # - conference presentation, use the name of the conference.
+    # - chapter of a book, use the name of the book.
+    # - book, omit this; there's no container.
+    container: My Awesome Blog
+
+    # Magazines, books, journals, and other mediums might have a publisher
+    # listed that is separate from the name of the container.
+    publisher: Random Casa
+
+    # Some containers will list a location, like books or conferences.
+    # If your source lists one, include it here.
+    location: Indianapolis
+
+    url: https://example.com/an-article-about-the-event
+
+    # Some publications use a digital object identifier (DOI).
+    # If your source includes one, list it here.
+    doi: '10.1109/SECON.2000.845625'
+
+    # Books, journals, and magazines often use page numbers. If your source is
+    # from a specific subset of pages from one of these mediums, list the page
+    # numbers here, if you know them.
+    pages: '337-357'

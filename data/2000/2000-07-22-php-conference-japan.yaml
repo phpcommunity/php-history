@@ -1,0 +1,24 @@
+title: Japan PHP User Group hosts PHP Conference 2000
+start_date: '2000-07-22T02Z'
+end_date: '2000-07-22T08Z'
+location: Ota-ku Sangyo Plaza, Tokyo, Japan
+
+description: >
+  The Japan PHP User Group organized PHP Conference 2000 as a single-day event,
+  with an introductory seminar to teach PHP basics in the morning, followed by
+  more advanced topics in the afternoon.
+
+notes: >
+  This conference might have the distinction of being the first PHP-specific
+  conference produced.
+
+tags:
+  - conference
+  - user-group
+
+sources:
+  - title: '『PHPカンファレンス2000』開催のご案内'
+    date: 2000
+    medium: web page
+    container: Japan PHP User Group
+    url: 'http://oldwww.php.gr.jp/seminar/20000723/index.html'
