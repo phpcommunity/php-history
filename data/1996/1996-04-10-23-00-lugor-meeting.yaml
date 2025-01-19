@@ -1,0 +1,29 @@
+title: Linux Users Group of Rochester hosted a meeting with a PHP/FI presentation
+start_date: '1996-04-10T23Z'
+end_date: '1996-04-11T00:30Z'
+location: NorTel, Rochester, New York, United States
+
+description: |
+  The April 1996 meeting of the Linux Users Group of Rochester (LUGOR) featured
+  a presentation from Thomas Bullinger on PHP/FI. The meeting announcement
+  describes PHP:
+
+  > PHP/FI is a server-side html-embedded scripting language. It lets you write
+  > simple scripts right in your .HTML files much like JavaScript does, except,
+  > unlike JavaScript PHP/FI is not browser-dependant. If you like free fast-moving
+  > software that comes with full source code you will probably like PHP/FI.
+
+notes: |
+  This might be the first user group meeting with a presentation on PHP.
+
+tags:
+  - user-group
+
+sources:
+  - title: April LUGOR Meeting - Topic PHP
+    authors:
+      - Thomas A. Bond
+    date: '1996-04-02T14:12:07Z'
+    medium: mailing list
+    container: lugor-announce
+    url: 'https://web.archive.org/web/19961109195847/http://www.lugor.org/lugor-announce/0044.html'
