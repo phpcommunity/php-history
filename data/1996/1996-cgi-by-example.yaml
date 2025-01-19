@@ -1,8 +1,8 @@
-title: CGI by Example includes a chapter on PHP/FI
+title: CGI by Example included a PHP/FI chapter
 date: 1996
 
 description: |
-  *CGI by Example* includes a chapter titled "Using PHP/FI." It describes PHP:
+  *CGI by Example* included a chapter titled "Using PHP/FI." It described PHP:
 
   > PHP/FI was developed by Rasmus Lerdorf, who needed to create a script that
   > enabled him to log visitors to his page. The script replaced a few other

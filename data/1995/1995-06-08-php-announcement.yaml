@@ -1,9 +1,9 @@
-title: PHP Tools Announcement
+title: PHP Tools announcement
 date: 1995-06-08
 
 description: >
-  Rasmus Lerdorf announces "a set of small tight cgi binaries written in C" that
-  allow users to do things like "log access to your pages," view logs, build
+  Rasmus Lerdorf announced "a set of small tight cgi binaries written in C" that
+  allowed users to do things like "log access to your pages," view logs, build
   access counters, ban "access to users based on their domain," "create and
   display forms," and much more, all without requiring "root access,"
   "server-side includes enabled," "access to Perl or Tcl," or "access to the
