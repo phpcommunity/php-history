@@ -1,0 +1,67 @@
+title: PHP-Kongress is held in Cologne
+start_date: '2000-10-05T08Z'
+end_date: '2000-10-06T14Z'
+location: Crowne Plaza Cologne City Centre, Cologne, Germany
+
+description: |
+  PHP-Center (Björn Schotte and Ralf Geschke) and Globalpark GmbH jointly hosted
+  PHP-Kongress in October 2000. The conference's speakers included (among many
+  others):
+  
+  * Ulf Wendel, who presented on PHPDoc
+  * Sebastian Bergmann, who presented on phpOpenTracker
+  * Kristian Köhntopp, who presented a keynote on building secure web applications
+  * Sascha Schumann, who presented on writing PHP extensions
+  * Johann-Peter Hartmann, who presented on XSLT processors
+  * Tobias Ratschiller, who presented the keynote "PHP Gestern, Heute, Morgen"
+    ("PHP Yesterday, Today, Tomorrow")
+  
+  Conference sponsors included Pentap, O'Reilly, via one! multimedia, Zend
+  Technologies, and many more.
+
+notes: |
+  PHP-Kongress was the first German-language PHP conference.
+
+tags:
+  - conference
+  - php-kongress
+
+sources:
+  - title: PHP-Kongress in Köln
+    authors:
+      - php-center.de
+      - Globalpark GmbH
+    date: '2000-06-15'
+    medium: press release
+    url: 'https://web.archive.org/web/20000815200110/http://www.php-kongress.de/2000/kongress-pr.pdf'
+
+  - title: Startseite
+    date: '2000'
+    medium: web page
+    container: PHP-Kongress
+    url: 'https://web.archive.org/web/20000815200110/http://www.php-kongress.de/2000/'
+
+  - title: PHP Kongreß 2000 Cologne
+    authors:
+      - Kristian Köhntopp
+    date: '2000-10-08'
+    medium: blog post
+    container: Köhntopps
+    url: 'https://web.archive.org/web/20040815224148/https://kris.koehntopp.de/artikel/php-kongress/'
+
+  - title: 'PHP Nostalgia: PHP Kongress 2000'
+    authors:
+      - Björn Schotte
+    date: '2008-03-22'
+    medium: blog post
+    container: Mayflower
+    url: 'https://blog.mayflower.de/312-PHP-Nostalgia-PHP-Kongress-2000.html'
+
+  - title: PHP Conferences Around the World In 25 Years
+    authors:
+      - KOYAMA Tetsuji
+      - NYANDA Suwan
+      - HAMASAKI Ryuta
+    date: '2024-12-22'
+    medium: PDF
+    url: 'https://drive.google.com/file/d/14wKvKtVPNtssGyFmlHndsFI3cgp7Uweo/view'
