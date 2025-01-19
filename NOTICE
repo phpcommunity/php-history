@@ -1,0 +1,29 @@
+Data in the data/ directory
+===========================
+
+All data files within the data/ directory, unless indicated otherwise, are
+marked with CC0 1.0 Universal and dedicated to the public domain. To the extent
+possible under law, the contributors have waived all copyright and related or
+neighboring rights to the data contributed to the data/ directory.
+
+See COPYING.data or <https://creativecommons.org/publicdomain/zero/1.0/>.
+
+Source code
+===========
+
+Except where otherwise noted, all source code for the PHP History Project is
+Copyright (c) PHP Community Foundation and contributors.
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU Affero General Public License as published by the Free
+Software Foundation, either version 3 of the License, or (at your option) any
+later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along
+with this program. If not, see <https://www.gnu.org/licenses/>.
+
+See COPYING.code or <https://www.gnu.org/licenses/agpl-3.0.html>.
