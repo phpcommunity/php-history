@@ -1,0 +1,54 @@
+title: GoPHP 5 Project
+
+date: '2007-07'
+
+description: |
+  In 2007, PHP 5 had been out for three years but still had paltry usage compared to PHP 4.
+  That was mainly due to a chicken-and-egg issue, where shared hosts (which was most of the market at the time)
+  didn't want to update to PHP 5 until their customers required it, but major PHP projects
+  didn't want to require PHP 5 until enough hosts supported it.  No project wanted to be the
+  first to move, and possibly lose marketshare.
+  
+  In July of 2007, Larry Garfield launched the GoPHP 5 Project, in collaboration
+  with Robert Douglass, Marc Delisle, and others.  Its goal was to collect projects and hosts
+  willing to commit to switching to PHP 5.2 as of 5 February the following year.  (5.2.2008, in European dating.)
+  With a large number of projects moving at once, no one would have a "first mover disadvantage."
+  Additionally, the hosts would demonstrate that PHP 5 availability was no longer an issue.
+  
+  Officially announced with 6 projects and 3 hosts on 5 July 2007, by the end of the month
+  over 100 projects and 200 hosts had signed on.  The PHP Project itself also decided during
+  that time to announce an End-of-Life for PHP 4.  In effect, GoPHP 5 assassinated PHP 4,
+  and cleared the way for the next era of PHP's growth.
+  
+  GoPHP 5 was also the first major cross-project collaboration in PHP's history.
+
+notes: |
+  * The GoPHP5 project's website was sadly nabbed by domain squatters several years later,
+    and is now a spam page.  See the Archive.org copy listed below.
+
+tags:
+  - php5
+  - gophp5
+  - collaboration
+
+# One or more sources provided as evidences for the event (required)
+#
+# You must cite at least one source!
+sources:
+  - # Be sure each source is an object in a YAML array.
+    title: GoPHP5 Go
+    authors:
+      - Larry Garfield
+    date: '2007-07-05'
+    medium: blog
+    container: GarfieldTech
+    url: https://www.garfieldtech.com/blog/go-php-5-go
+  - # Be sure each source is an object in a YAML array.
+    title: GoPHP5.org (Archived)
+    authors:
+      - Larry Garfield
+      - Robert Douglas
+    date: '2008-12-17'
+    medium: website
+    container: GoPHP5 website
+    url: https://web.archive.org/web/20081217022709/http://gophp5.org/
